@@ -1,0 +1,17 @@
+<?php
+$product = $this->getProduct();
+?>
+<div class="product-offer">
+    <h1>Produto com a melhor oferta!!</h1>
+    <div class="produt">
+        <div class="image">
+            <img src="<?= $this->getUrl('/media/').$product->getSmallImage()?>"/>
+        </div>
+        <div class="description">
+            <p><?=$product->getDescription();?></p>
+        </div>
+        <div class="value">
+            <p><?=$product->getPrice();?></p>
+        </div>
+    </div>
+</div>

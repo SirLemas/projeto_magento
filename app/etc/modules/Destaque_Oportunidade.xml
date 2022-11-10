@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Destaque_Oportunidade>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Destaque_Oportunidade>
+    </modules>
+</config>

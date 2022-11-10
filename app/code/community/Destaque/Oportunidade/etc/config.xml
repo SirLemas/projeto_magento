@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Destaque_Oportunidade>
+            <version>0.0.1</version>
+        </Destaque_Oportunidade>
+    </modules>
+    <global>
+        <blocks>
+            <produto>
+                <class>Destaque_Oportunidade_Block</class>
+            </produto>
+        </blocks>
+    </global>
+    <frontend>
+        <routers>
+            <oportunidade>
+                <use>standard</use>
+                <args>
+                    <module>Destaque_Oportunidade</module>
+                    <frontName>destaque</frontName>
+                </args>
+            </oportunidade>
+        </routers>
+    </frontend>
+</config>
+
